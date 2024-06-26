@@ -1,0 +1,12 @@
+{
+    "development": {
+        "PORT": 8000,
+        "MONGODB_URI": "mongodb://127.0.0.1:27017/userManagment"
+    },
+    "prod": {
+        "PORT": 8000,
+        "limit": 200,
+        "MONGODB_URI1": "mongodb://127.0.0.1:27017/userManagment",
+        "MONGODB_URI": "mongodb://localhost:27017/userManagment"
+    }
+}
